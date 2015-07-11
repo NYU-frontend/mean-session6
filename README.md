@@ -2,18 +2,20 @@
 
 ##Assignment
 
-tbd
+This week's assignment is 2 part.
 
-##Tools of the trade - continued
+1. In a similar scenario to last week you are to transfer the Angular logic and code from the Bootstrap version of the file to the Pirate Portfolio. The Bootstrap HTML you should use is located [here](https://github.com/NYU-frontend/mean-session5/blob/version1/other/Angular%20III/start.html) and its associated app.js file is [here](https://github.com/NYU-frontend/mean-session5/edit/version1/other/Angular%20III/js/app.js)
+2. You should devise a topic for your midterm project, begin collecting assets (images, text) and use the [Bootstrap version](https://github.com/NYU-frontend/mean-session5/blob/version1/other/Angular%20III/start.html) of the page to do a rough layout of the content.
 
-* [Bootstrap](http://getbootstrap.com/getting-started/) and SASS
-* Responsive design: breakpoints and images
-* [Codekit](https://incident57.com/codekit/)
+##Angular JS
+
+* [JSON Format](http://www.freeformatter.com/json-formatter.html)
+* [A simple JSON Tutorial](http://iviewsource.com/codingtutorials/getting-started-with-javascript-object-notation-json-for-absolute-beginners/)
+* [JSON Lint](http://jsonlint.com)
 * [Angular JS](https://angularjs.org)
 * [Angular Code](https://code.angularjs.org/)
 * [Angular Docs](https://docs.angularjs.org/api)
 * [Github forking](https://help.github.com/articles/fork-a-repo/) 
-* [Github commenting](https://help.github.com/articles/markdown-basics/)
 
 Git  
 * [Git checkout](http://git-scm.com/docs/git-checkout)
@@ -21,7 +23,7 @@ Git
 * [Git push](http://git-scm.com/docs/git-push)
 
 Other
-* [Google fonts](https://www.google.com/fonts)
+
 
 
 ##Objectives
@@ -29,9 +31,10 @@ Other
 Understand the basic principles of AngularJS. This session will cover:
 
 * Basic AngularJS principles and directives
-* ng-app
-* ng-model
-* ng-init
+* Dependency injection
+* Angular $scope
+* ng-init, ng-model, ng-app
+* JSON format, structure and validation
 
 ##Essentials
 ```
