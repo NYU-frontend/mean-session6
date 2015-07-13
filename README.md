@@ -6,21 +6,29 @@ tbd
 
 ##Angular JS
 
+* HTML5 form elements and validation
+* [Angular Directives](https://docs.angularjs.org/api/ng/directive)
+* [Angular Filters](https://docs.angularjs.org/api/ng/filter) 
+* [Directive > Input](https://docs.angularjs.org/api/ng/directive/input) 
+* Overview forms handling from book samples
+
+Last Week
 * [JSON Format](http://www.freeformatter.com/json-formatter.html)
 * [A simple JSON Tutorial](http://iviewsource.com/codingtutorials/getting-started-with-javascript-object-notation-json-for-absolute-beginners/)
 * [JSON Lint](http://jsonlint.com)
 * [Angular JS](https://angularjs.org)
 * [Angular Code](https://code.angularjs.org/)
 * [Angular Docs](https://docs.angularjs.org/api)
-* [Github forking](https://help.github.com/articles/fork-a-repo/) 
 
 Git  
 * [Git checkout](http://git-scm.com/docs/git-checkout)
 * [Git branch](http://git-scm.com/docs/git-branch)
 * [Git push](http://git-scm.com/docs/git-push)
+* [Github forking](https://help.github.com/articles/fork-a-repo/) 
 
 Other
-
+* check out Atlassian SourceTree
+* Apple FileMerge
 
 
 ##Objectives
