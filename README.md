@@ -2,7 +2,7 @@
 
 ##Assignment
 
-tbd
+* add validation to the Pirate Portfolio's add portfolio form which you created in the previous class
 
 ##Angular JS
 
