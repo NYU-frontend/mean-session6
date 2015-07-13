@@ -1,11 +1,8 @@
-#MEAN Session Five
+#MEAN Session Six
 
 ##Assignment
 
-This week's assignment is 2 part.
-
-1. In a similar scenario to last week you are to transfer the Angular logic and code from the Bootstrap version of the file to the Pirate Portfolio. The Bootstrap HTML you should use is located [here](https://github.com/NYU-frontend/mean-session5/blob/version1/other/Angular%20III/start.html) and its associated app.js file is [here](https://github.com/NYU-frontend/mean-session5/edit/version1/other/Angular%20III/js/app.js)
-2. You should devise a topic for your midterm project, begin collecting assets (images, text) and use the [Bootstrap version](https://github.com/NYU-frontend/mean-session5/blob/version1/other/Angular%20III/start.html) of the page to do a rough layout of the content.
+tbd
 
 ##Angular JS
 
