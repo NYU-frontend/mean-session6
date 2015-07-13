@@ -27,25 +27,6 @@ $break-one: 360px;
  
 @import url('http://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('normalize.css');
-
-
-
-.controlbar {
-    padding:.25rem;
-    width:100%;
-    background: #000;
-    min-height: 2rem;
-
-    .showBreakpoint { 
-        background: #333; 
-        color: #fff; 
-        border: none;
-        width: 240px;
-        float: right;
-        padding: 5px;
-    }
-}
-
  
 //clearfix - see http://nicolasgallagher.com/micro-clearfix-hack/
 .group:after {
@@ -381,55 +362,6 @@ ul {
 }
     }
 
-
-// ampersand http://www.joeloliveira.com/2011/06/28/the-ampersand-a-killer-sass-feature/
-div.loading {
-    color: darken($gray, 20%);
-    position: absolute;
-    width: 100px;
-    bottom: 15px;
-    left: 50%;
-    margin-left: -50px;
-
-    img {
-        vertical-align: middle;
-
-        &.rotate {
-            -webkit-animation-name: rotate;
-            -ms-animation-name: rotate;
-            animation-name: rotate;
-            -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-            -webkit-animation-iteration-count: infinite;
-            -ms-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -ms-animation-timing-function: linear;
-            animation-timing-function: linear;
-        }
-    }
-    // next partial here
-}
-
-@-webkit-keyframes rotate {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        -webkit-transform-origin: center center;
-        transform-origin: center center;
-    }
-}
- 
-@keyframes rotate {
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-        -webkit-transform-origin: center center;
-        -ms-transform-origin: center center;
-        transform-origin: center center;
-    }
-}
 
 
 
