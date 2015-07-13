@@ -8,6 +8,7 @@
 
 * HTML5 form elements and validation
 * [Angular Directives](https://docs.angularjs.org/api/ng/directive)
+* [Angular Input](https://docs.angularjs.org/api/ng/directive/input)
 * [Angular Filters](https://docs.angularjs.org/api/ng/filter) 
 * [Directive > Input](https://docs.angularjs.org/api/ng/directive/input) 
 * Overview forms handling from book samples
