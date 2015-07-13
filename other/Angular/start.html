@@ -1,7 +1,8 @@
-<html ng-app>
+<html ng-app="myApp">
 <head>
 	<link rel="stylesheet" type="text/css" href="bootstrap-sass-3.3.5/assets/css/_bootstrap.css">
 	<script src="https://code.angularjs.org/1.2.3/angular.js"></script>
+	<script src="js/app.js"></script>
 
 	<style>
 	.even { color: red; }
@@ -46,7 +47,6 @@
 			</div>
 		</div>
 	
-
 	<div class="col-xs-4" ng-repeat="portfolio in portfolios | filter:searchFor | orderBy:'date' " >
 		<div class="panel panel-default panel-primary">
 			<div class="panel-heading"> 
@@ -62,23 +62,5 @@
 
 <p> There are {{ portfolios.length }} portfolios so far!</p>
 
-
-<script> 
-function PortfolioListController( $scope ) {
-
-	$scope.portfolios = [
-	{name: 'vessel1309', title: 'Call of Booty', date: '2013-09-01', description: 'Arrrgh mateys! This be the finest vessel sailing these seas that yer eyes ever laid sight on. Arrrgh.', imageurl: 'drunkenPirate_thumb3.png' },
-	{name: 'innocents1404', title: 'The Sack of the Innocents', date: '2014-04-15', description: 'This be a detail of the sacking of the innocents where I played an important role as business analyst and in implementation.', imageurl: 'drunkenPirate_thumb2.png' },
-	{name: 'firstmate1210', title: 'Pipe and First Mate', date: '2012-10-01', description: 'After a hard day of lootin\' and shootin\' I like to relax with my best mates and tally up the days booty.', imageurl: 'drunkenPirate_thumb1.png' }
-	]
-
-	$scope.addPortfolio = function (new_portfolio) {
-		$scope.portfolios.push(new_portfolio);
-	};
-
-}
-</script>
 </body>
-
-
 </html>
