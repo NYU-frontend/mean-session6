@@ -7,24 +7,24 @@ portfolioApp.controller('PortfolioListController', function( $scope ) {
 	{name: 'firstmate1210', title: 'Pipe and First Mate', date: '2012-10-01', description: 'After a hard day of lootin\' and shootin\' I like to relax with my best mates and tally up the days booty.', imageurl: 'drunkenPirate_thumb1.png' }
 	]
 
-	$scope.addPortfolio = function (new_portfolio) {
-		// if new_portfolio is not defined
-		if (typeof(new_portfolio) == 'undefined') {
-			// then add an error message to $scope and exit
-			$scope.add_portfolio_error = "The form is not properly filled out";
-			return false;
-		};
-		
-		$scope.add_portfolio_error = "";
-		if (!new_portfolio.title ){
-			$scope.add_portfolio_error = "Please provide a title.";
-		} else if (!new_portfolio.date || new_portfolio.date.length <10) {
-			$scope.add_portfolio_error = "Please provide a date in yyyy/mm/dd format.";
-		} else {
-			$scope.portfolios.push(new_portfolio);
-			$scope.adding_portfolio = {};
-		}
+$scope.addPortfolio = function (new_portfolio) {
+	// if new_portfolio is not defined
+	if (typeof(new_portfolio) == 'undefined') {
+		// then add an error message to $scope and exit
+		$scope.add_portfolio_error = "The form is not properly filled out";
+		return false;
 	};
+	
+	$scope.add_portfolio_error = "";
+	if (!new_portfolio.title ){
+		$scope.add_portfolio_error = "Please provide a title.";
+	} else if (!new_portfolio.date || new_portfolio.date.length <10) {
+		$scope.add_portfolio_error = "Please provide a date in yyyy/mm/dd format.";
+	} else {
+		$scope.portfolios.push(new_portfolio);
+		$scope.adding_portfolio = {};
+	}
+};
 	
 });
 
