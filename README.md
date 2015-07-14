@@ -1,6 +1,6 @@
 #MEAN Session Six
 
-##Assignment
+##Assignment - NB finished files are in the repo 'version1'
 
 * Add validation to the Pirate Portfolio's add portfolio form using the techniques outlined in class and in chapter 4 from the text. 
 * Be sure to add styling to indicate valid vs invalid entries (ref. 7-form-styling.html in the folder "2 chapter 4" in this repository)
