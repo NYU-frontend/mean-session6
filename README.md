@@ -5,6 +5,7 @@
 * Add validation to the Pirate Portfolio's add portfolio form using the techniques outlined in chapter 4 from the text. 
 * Be sure to add styling to indicate valid vs invalid entries (ref. 7-form-styling.html in the folder "2 chapter 4" in this repository)
 * Implement ng-disabled on the form submission button
+* Implement an alternate to ng-click on the form (see chapter 4)
 
 ##Angular JS
 
